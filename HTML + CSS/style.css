@@ -1,0 +1,9 @@
+body {
+    background-color: black; 
+    /*O seletor background-color é utilizado para mudar a cor do background (plano de fundo) da página.*/ 
+    color: #F6F6F6;  
+    /*O seletor color é utilizado para mudar a cor do texto*/
+}
+strong {
+    color: #22D4FD;
+}
