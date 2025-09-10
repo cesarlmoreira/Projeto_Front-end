@@ -19,5 +19,7 @@ body {
 }
 .apresentacao {
     display: flex;
+    /*Para utilizar o Flexbox é necessário utilizar o comando display e também deixa os elementos posicionados em linha.*/
     align-items: center;
+    /*O seletor align-items é utilizado para levar os elementos para o centro.*/
 }
