@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -26,4 +27,15 @@ body {
     /*O seletor align-items é utilizado para levar os elementos para o centro, em relação ao maior elemento.*/
     justify-content: space-between;
     /*Neste caso, o justify-content: space-between foi utilizado para gerar a distribuição de forma uniforme na linha.*/
+}
+.apresentao__conteudo {
+    width: 615px;    
+}
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;  
+}
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;    
 }

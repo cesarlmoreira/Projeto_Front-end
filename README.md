@@ -19,3 +19,5 @@ Box Model: https://www.w3schools.com/css/css_boxmodel.asp
 Box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing.
 
 CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Google Fonts: https://fonts.google.com/
