@@ -18,8 +18,12 @@ body {
     /*Criado uma class no arquivo HTML para que se possa ser realizada a alteração de estilo de uma tag específica.*/
 }
 .apresentacao {
+    margin: 10%;
+    /*Neste caso, foi utilizado o Reset CSS no inicio da estilização, porém será necessário a utilização de margem para a sessão que foi criada para gerar um espaçamento entre os itens.*/
     display: flex;
     /*Para utilizar o Flexbox é necessário utilizar o comando display que também deixa os elementos posicionados em linha.*/
     align-items: center;
     /*O seletor align-items é utilizado para levar os elementos para o centro, em relação ao maior elemento.*/
+    justify-content: space-between;
+    /*Neste caso, o justify-content: space-between foi utilizado para gerar a distribuição de forma uniforme na linha.*/
 }
