@@ -4,6 +4,10 @@
 }
 /*O comando acima é utilizado para dar um Reset no CSS para modificar o Box Model, eliminando espaçamentos desnecessários*/
 body {
+    height: 100vh;
+    /*Height define a altura da tela visível, neste caso em 100% do viewport.*/
+    box-sizing: border-box;
+    /*O seletor box-sizing é utilizado os elementos filhos não saiam para fora do elemento pai, neste caso a poderia ser a tag <p>.*/
     background-color: black; 
     /*O seletor background-color é utilizado para mudar a cor do background (plano de fundo) da página.*/ 
     color: #F6F6F6;  
@@ -12,4 +16,8 @@ body {
 .titulo-destaque {
     color: #22D4FD;
     /*Criado uma class no arquivo HTML para que se possa ser realizada a alteração de estilo de uma tag específica.*/
+}
+.apresentacao {
+    display: flex;
+    align-items: center;
 }

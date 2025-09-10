@@ -15,3 +15,7 @@ https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/147890?b
 Link para documentação: https://www.w3schools.com/
 
 Box Model: 
+
+Box-sizing: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing.
+
+CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
