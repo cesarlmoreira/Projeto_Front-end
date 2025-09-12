@@ -23,3 +23,6 @@ CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Google Fonts: https://fonts.google.com/
 
 CSS border styles: https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css
+
+Gap: https://css-tricks.com/almanac/properties/g/gap/
+
