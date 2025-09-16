@@ -25,5 +25,6 @@ Google Fonts: https://fonts.google.com/
 CSS border styles: https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css
 https://www.w3schools.com/css/css_border.asp
 
-Gap: https://css-tricks.com/almanac/properties/g/gap/
+CSS Gap: https://css-tricks.com/almanac/properties/g/gap/
 
+CSS Hover: https://www.w3schools.com/cssref/sel_hover.php
