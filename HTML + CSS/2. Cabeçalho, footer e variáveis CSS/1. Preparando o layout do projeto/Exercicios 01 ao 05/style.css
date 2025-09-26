@@ -56,7 +56,10 @@ body {
     font-size: 24px;     
 }
 
-.apresentacao__conteudo__links__link {
+.apresentacao__conteudo__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     font-family: "Montserrat", sans-serif; 
     font-weight: 600;
     text-decoration: none;
@@ -68,6 +71,7 @@ body {
     padding: 16px 0;
 }
 
-.apresentacao__imagem {
-    align-items: flex-start;
+.apresentacao__conteudo__link:hover {
+
+    background-color: #272727;
 }
