@@ -1,17 +1,20 @@
-<!--1) Personalizando o rodapé do seu site
-Imagine que você está desenvolvendo um site e chegou a hora de personalizar o rodapé. O desafio é criar um rodapé estilizado com as seguintes características: deve ter um fundo azul claro (#22D4FD), texto em preto (#000000), e o texto deve ser centralizado e usar a fonte 'Montserrat', tamanho 24px e peso 400. Além disso, o rodapé deve ter um padding de 24px. Use o HTML e CSS fornecidos como base e aplique as modificações necessárias.
+<!--1) Estilizando o cabeçalho com CSS
+Imagine que você trabalha com desenvolvimento front-end trabalhando em um projeto de website. O seu desafio é estilizar o cabeçalho da página de acordo com as especificações fornecidas. Utilize o arquivo style.css para aplicar as propriedades CSS no cabeçalho.
 
-2) Ajustando o espaçamento interno da apresentação
-Você ficou responsável por ajustar o layout de uma seção de apresentação em um site. Atualmente, os elementos estão muito próximos das bordas, o que prejudica a estética do site. Sua tarefa é substituir a propriedade margin por padding na classe .apresentacao do CSS, testando valores de porcentagem para encontrar o espaçamento ideal. Comece com 5% e ajuste conforme necessário para obter um visual equilibrado.
+2) Ajustando o espaçamento do conteúdo
+Agora, como quem trabalha com desenvolvimento, seu próximo desafio é ajustar o espaçamento do conteúdo da página para que se alinhe corretamente com o cabeçalho.
 
-3) Removendo o height para adaptar o layout
-Seu site está enfrentando um problema de layout: a propriedade height: 100vh no body está impedindo que o conteúdo se ajuste corretamente na tela, especialmente com a adição de novos elementos como um rodapé. Sua missão é comentar a linha que define height: 100vh no CSS e verificar o impacto dessa mudança no layout do site. Observe como o conteúdo e o rodapé se adaptam à nova configuração.
+3) Criando e navegando para a página "Sobre mim"
+Você está trabalhando em um projeto de site pessoal e precisa adicionar uma página "Sobre mim". Para isso, você deve criar um novo arquivo HTML, chamado about.html, e configurar um link no menu de navegação do seu site principal (index.html) para redirecionar para esta nova página. Além disso, ajuste o cabeçalho da página about.html para que o título da aba seja “Sobre mim” e adicione um <h1> com o texto "Sobre mim" no corpo da nova página. Certifique-se de que a navegação entre a página principal e a página "Sobre mim" esteja funcionando corretamente.
 
-4) Estilizando o cabeçalho com CSS
-Você está criando um site e chegou a hora de estilizar o cabeçalho para que ele fique visível e atraente, similar ao projeto no Figma. Você precisa adicionar estilo ao cabeçalho no arquivo style.css, de forma que os links "Home" e "Sobre mim" fiquem alinhados horizontalmente e com uma aparência moderna. Considere usar propriedades como font-size, color, margin, padding, e display. Tente também adicionar um hover para alterar a cor dos links quando o mouse passar por cima.
+4) Ajustando a estilização após reorganização de arquivos
+Você percebeu que, após mover o arquivo styles.css para uma nova pasta chamada "styles", a estilização do seu site foi perdida. Para corrigir isso, você deve atualizar o caminho do arquivo CSS no seu arquivo index.html. Além disso, no arquivo styles.css, você deve remover o sublinhado dos links no cabeçalho do site. Após estas correções, verifique se a estilização foi aplicada corretamente e se os links do cabeçalho não estão mais sublinhados.
 
-5) Ajustando o espaçamento interno dos links
-Com base no estilo atual do cabeçalho, percebe-se que os links podem estar muito próximos um do outro ou da borda do cabeçalho, o que pode afetar a legibilidade e a estética do site. Sua tarefa é ajustar o espaçamento interno (padding) dos links "Home" e "Sobre mim" para garantir que eles tenham um espaçamento adequado em torno do texto. Isso tornará o cabeçalho mais atraente e fácil de usar.-->
+5) Estruturando a página "Sobre mim" com cabeçalho e rodapé
+Nesta atividade, você irá estruturar a página "Sobre mim" do seu projeto, reutilizando o cabeçalho e o rodapé da página inicial (index.html). Primeiro, copie o <header> e o <footer> do index.html e cole-os no arquivo about.html. Em seguida, adicione uma seção <main> vazia entre o <header> e o <footer>. Por fim, verifique se a estrutura copiada está funcionando corretamente no navegador, com os links de navegação e o texto do rodapé aparecendo.
+
+6) Importando e corrigindo o caminho do arquivo CSS na página "Sobre mim"
+O objetivo desta atividade é importar o arquivo de estilos styles.css na página "Sobre mim" e corrigir o caminho do arquivo para refletir a estrutura de pastas atual. No arquivo about.html, adicione a tag <link> para importar o styles.css. Lembre-se de que o arquivo CSS foi movido para uma pasta chamada "styles", então o caminho do href na tag <link> precisa ser atualizado para "./styles/styles.css". Após essa correção, salve o arquivo e recarregue a página no navegador para verificar se os estilos foram aplicados corretamente.-->
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -21,6 +24,7 @@ Com base no estilo atual do cabeçalho, percebe-se que os links podem estar muit
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
+    <link rel="icon" type="image/png" href="./assets/imagem.png">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
