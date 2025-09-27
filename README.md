@@ -28,3 +28,5 @@ https://www.w3schools.com/css/css_border.asp
 CSS Gap: https://css-tricks.com/almanac/properties/g/gap/
 
 CSS Hover: https://www.w3schools.com/cssref/sel_hover.php
+
+CSS Variables: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
