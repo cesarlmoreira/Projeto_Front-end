@@ -14,8 +14,8 @@
 body{
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: var(--cor--principal)
-    color:var-cor-secundaria)
+    background-color: var(--cor--principal);
+    color: var(--cor-secundaria);
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
