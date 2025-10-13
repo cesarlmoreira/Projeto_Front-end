@@ -37,3 +37,5 @@ Hover transition: https://www.youtube.com/watch?v=6jMqjQhHoHw
 
 cabeçalhos e rodapés de alta qualidade: https://pt.creativosonline.org/27-cabe%C3%A7alhos-e-rodap%C3%A9s-css-para-seu-blog-ou-site.html
 
+CSS Units: https://www.w3schools.com/cssref/css_units.php
+
