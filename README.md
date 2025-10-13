@@ -30,3 +30,10 @@ CSS Gap: https://css-tricks.com/almanac/properties/g/gap/
 CSS Hover: https://www.w3schools.com/cssref/sel_hover.php
 
 CSS Variables: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_cascading_variables/Using_CSS_custom_properties
+
+Fontes costomizadas: https://www.alura.com.br/artigos/tailwind-adicionando-fontes-customizadas
+
+Hover transition: https://www.youtube.com/watch?v=6jMqjQhHoHw
+
+cabeçalhos e rodapés de alta qualidade: https://pt.creativosonline.org/27-cabe%C3%A7alhos-e-rodap%C3%A9s-css-para-seu-blog-ou-site.html
+
