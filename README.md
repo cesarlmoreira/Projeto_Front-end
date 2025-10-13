@@ -39,3 +39,5 @@ cabeçalhos e rodapés de alta qualidade: https://pt.creativosonline.org/27-cabe
 
 CSS Units: https://www.w3schools.com/cssref/css_units.php
 
+Media Queries: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
