@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #FFFFFF;
+    --secundary-color: #C0C0C0;
+    --button-color: #167BF7;
+    --background-color: #00030C;    
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-color);
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;    
+}
+
+.main {
+    background-image: url("./assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__title {
+    color: var(--main-color);
+}
+
+.main__text {
+    color: var(--main-color);
+}
+
+.main__footer {
+    color: var(--secundary-color);
+}

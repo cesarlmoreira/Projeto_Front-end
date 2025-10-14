@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-color: #FFFFFF;
+    --secundary-color: #C0C0C0;
+    --button-color: #167BF7;
+    --background-color: #00030C;  
+    
+    --main-font: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--main-color);
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;  
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    font-family: var(--main-font);
+}
+
+.main {
+    background-image: url("./assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main__title {
+    color: var(--main-color);
+    font-size: 1.625em;
+    font-weight: 700;
+}
+
+.main__button {
+    color: var(--main-color);
+    background-color: var(--button-color);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 1em;
+    display: block;
+    font-size: 1em;
+    font-weight: 400;
+    width: 512px;
+}
+
+.secundary__button {
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+}
+
+.main__notice {
+    color: var(--secundary-color);
+    font-family: 0.75em;
+    font-weight: 400;
+}

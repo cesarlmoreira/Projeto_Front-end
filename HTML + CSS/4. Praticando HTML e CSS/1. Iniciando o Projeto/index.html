@@ -1,0 +1,38 @@
+<!--1) Criando a estrutura HTML Alura Plus
+Crie a estrutura inicial do arquivo HTML que servirá de alicerce para toda a página.
+
+Lembre-se de seguir as boas práticas para a estruturação de um arquivo HTML, mantendo a organização e a legibilidade do código.
+
+2) Conectando o CSS e preparando o ambiente de desenvolvimento
+Com a estrutura HTML pronta, é hora de preparar seu ambiente de desenvolvimento e conectar o arquivo CSS. Este exercício é crucial para garantir que você tem um ambiente de desenvolvimento funcional e que os arquivos estão corretamente interconectados.
+
+3) Definindo cores com variáveis CSS
+Você trabalha com desenvolvimento web e recebeu um projeto para criar um site. Você recebeu um arquivo Figma com o design da interface, onde as cores são definidas para diferentes elementos. Sua tarefa é começar a estilização do site utilizando variáveis CSS para definir as cores. Crie variáveis para as cores branca, cinza e azul, conforme detalhado no design, e aplique-as no seu arquivo CSS.
+
+4) Aplicando estilo global com seletor universal
+Em um projeto de desenvolvimento web, você percebe que cada elemento HTML possui margens e preenchimentos padrão que estão afetando o layout. Para resolver isso, utilize o seletor universal * no CSS para remover todas as margens e preenchimentos padrão. Aplique esta regra no seu arquivo styles.css e observe as mudanças no layout da sua página web.
+
+5) Inserção de imagem com tag img
+Você está trabalhando em um projeto web e precisa inserir uma imagem promocional importante na página. A imagem, chamada "Promo.png", deve ser colocada imediatamente abaixo de um cabeçalho h1 no seu arquivo index.html. Além disso, é essencial adicionar um texto alternativo à imagem que descreva seu conteúdo de forma clara e precisa. Lembre-se de que o texto alternativo é importante para acessibilidade.
+
+6) Estilizando uma imagem de fundo com CSS
+Seu projeto web precisa de uma imagem de fundo atrativa. Você decidiu usar a imagem "Background.png" para este propósito. No seu arquivo styles.css, selecione a classe main-section e aplique essa imagem como fundo. Certifique-se de ajustar a imagem para que ela cubra toda a área da seção, sem repetição e com as dimensões corretas para preencher o espaço. A seção main-section deve ser visível e esteticamente agradável, mantendo a funcionalidade da página.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Plus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="container main">
+        <h1 class="main__title">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço único.</h1> 
+        <img src="./assets/Combo.png" alt="O combo+ é a junção do altura+ e o alura língua."> 
+        <a class="main__text">Assine por 12x de R$ 120,00*</a>
+        <a class="main__text">Assinar somente o Alura+</a>
+        <p class="main__footer">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+    </section> 
+</body>
+</html>
