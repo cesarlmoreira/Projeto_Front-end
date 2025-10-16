@@ -1,0 +1,127 @@
+<!-- 1) Criação de seção de dispositivos em HTML e CSS
+Você trabalha com desenvolvimento web e está criando uma página para o Alura Plus. Seu desafio é desenvolver a seção "Disponível nos seus dispositivos favoritos" que você viu no Figma. Esta seção contém um título, uma lista de dispositivos (TV, Computadores, Celulares e Tablets) com ícones e nomes. Você deve estruturar o HTML e estilizar com CSS para que fique responsivo e visualmente agradável.
+
+2) Estilizando a lista de dispositivos
+Agora que você criou a estrutura HTML da seção de dispositivos, seu próximo passo é estilizá-la usando CSS. Você precisa garantir que a seção esteja centralizada, que os itens da lista estejam dispostos lado a lado usando flexbox, e que a tipografia e os espaçamentos estejam de acordo com o design proposto no Figma. Lembre-se de remover os estilos padrão da lista e ajustar os tamanhos de fonte para o título e os nomes dos dispositivos.
+
+3) Construindo o footer com HTML
+Você trabalha com desenvolvimento web e está finalizando a página inicial de um projeto chamado Alura Plus. Sua tarefa é construir o rodapé (footer) da página, utilizando HTML. Baseie-se nas instruções fornecidas:
+
+3.1 Crie um elemento footer com a classe rodape.
+3.2. Dentro do footer, insira uma imagem do logo (img) com os atributos src, alt, e class apropriados.
+3.3. Adicione uma lista não ordenada (ul) com a classe rodape__lista.
+3.4. Dentro desta lista, crie vários itens (li) com a classe lista__link. Cada li deve conter um elemento de âncora (a) com o atributo href e o texto correspondente.
+3.5. Inclua dois parágrafos (p) com a classe rodape__texto, cada um contendo um texto de copyright diferente, conforme descrito.
+4) Estilizando o footer com CSS
+Agora que você já construiu o HTML do rodapé, chegou a hora de estilizá-lo com CSS. Use as habilidades que você aprendeu nas aulas anteriores para:
+
+4.1. Centralizar o conteúdo do footer na página.
+4.2. Alinhar os itens da lista de links lado a lado, em vez de um abaixo do outro.
+4.3. Alterar o tamanho e a cor da fonte dos links e dos textos de copyright.
+4.4. Remover a decoração (sublinhado) dos links.
+4.5. Aplicar qualquer outro estilo que você achar que melhorará a aparência do rodapé.
+5) Personalizando links com pseudo classes CSS
+Você está trabalhando em um projeto web e decidiu adicionar interatividade visual aos links no footer do site. Sua tarefa é utilizar pseudo classes CSS para mudar a cor dos links no footer quando o usuário passa o mouse sobre eles (hover) e quando estão sendo clicados (active). Utilize as cores e o CSS fornecido no relato para implementar esses efeitos.
+
+6) Criando efeitos visuais em botões com variáveis CSS
+Neste desafio, você vai aprimorar a interatividade dos botões no seu projeto web. Utilize a pseudo classe :hover para alterar a cor de fundo dos botões quando o usuário passa o mouse sobre eles. Para isso, crie uma variável CSS chamada --botao-azul-efeito e defina uma nova cor para ela. Em seguida, aplique esta cor ao fundo dos botões quando o mouse estiver sobre eles, mantendo a cor do texto adequada para garantir a legibilidade.-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alura Plus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Com o Combo+, você pode aproveitar a Alura+ e o Alura Língua por um preço
+                único.</h1>
+            <img class="container__imagem" src="./assets/Combo.png" alt="O combo+ é a junção do alura+ e o alura língua">
+            <a class="container__botao" href="www.alura.com.br" >Assine por 12x de R$ 120,00*</a>
+            <a class="container__botao botao_secundario" href="www.alura.com.br">Assinar somente o Alura+</a>
+            <p class="container__aviso">*O preço pode variar caso a assinatura seja feita em outros planos.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <img class="secundario__imagem" src="./assets/Plataformas.png" alt="Um monitor e um celular com a alura plus aberta" >
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Assista do seu jeito</h2>
+            <p class="descricao__texto">Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros
+                aparelhos. Nossa seleção de cursos não para de crescer.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <p class="descricao__texto">
+                Só o Combo+ oferece Alura+ e Alura Língua juntos para você ter acesso a cursos de diversas áreas da
+                tecnologia e aprender inglês ou espanhol, onde e como quiser.
+            </p>
+            <a class="container__botao secundario__botao" href="www.alura.com.br">Assine o Combo+</a>
+        </div>
+        <img class="secundario__imagem" src="./assets/Telas.png" alt="Tela do alura+ e alura língua">
+    </section>
+
+    <section class="container secundario">
+        <img class="secundario__imagem" src="./assets/Notebook.png" alt="Notebook com a página do curso HTML5 e CSS3 da Alura aberta">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Baixe seus cursos</h2>
+            <p class="descricao__texto">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com
+                você, até mesmo sem internet.</p>
+        </div>
+    </section>
+
+    <section class="dispositivos">
+        <h2 class="dispositivos__titulo">Disponível nos seus dispositivos favoritos</h3>
+        <ul class="dispositivos__lista">
+            <li>
+                <img src="./assets/tv.png" alt="Ícone de uma TV.">
+                <h3 class="lista__item">TV</h3>
+            </li>
+            <li>
+                <img src="./assets/computador.png" alt="Ícone de computador.">
+                <h3 class="lista__item">Computadores</h3>
+            </li>
+            <li>
+                <img src="./assets/celular.png" alt="Ícone de um celular.">
+                <h3 class="lista__item">Celulares e tablets</h3>
+            </li>
+        </ul>
+    </section>
+</body>
+<footer class="rodape">
+    <img class="rodape__logo" src="./assets/Logo.png" alt="Logo da Alura.">
+    <ul class="rodape__lista">
+        <li class="lista__link">
+            <a href="#">Idioma</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Dispositivos compatíveis</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Contrato de assinatura</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Política de privacidade</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Proteção de dados no Brasil</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Anúncios personalizados</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Ajuda</a>
+        </li>
+    </ul>
+    <p class="rodape__texto">® 2021 Alura, Alura+ e Alura Língua. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.</p>
+    <p class="rodape__texto">Alura+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Alura+ é comercializado por Aovs Sistemas de Informática S.A., Rua Vergueiro, 3185 - Liberdade, São Paulo - SP, 04101-300, Brasil e CNPJ 05.555.382/0001-33</p>
+</footer>
+
+</html>
