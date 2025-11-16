@@ -45,3 +45,5 @@ CSS Grind Layout: https://www.alura.com.br/artigos/criando-layouts-com-css-grid-
 
 Grind Template Areas: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
 
+CSS Reset completo: https://meyerweb.com/eric/tools/css/reset/
+
