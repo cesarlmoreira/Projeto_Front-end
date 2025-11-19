@@ -47,3 +47,6 @@ Grind Template Areas: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-temp
 
 CSS Reset completo: https://meyerweb.com/eric/tools/css/reset/
 
+Input types HTML: https://www.w3schools.com/html/html_form_input_types.asp
+
+Plug-in para carrossel sem JavaScript: https://swiperjs.com/
