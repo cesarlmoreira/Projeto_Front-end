@@ -107,3 +107,27 @@
     margin: 0.5em;
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 1.625rem;
+        padding-top: 3rem;
+    }
+
+    .swiper-pagination {
+        padding: 1rem 0 2rem 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2em auto;
+    }
+
+    .topicos__link {
+        font-size: 1.5rem;
+    }
+}
