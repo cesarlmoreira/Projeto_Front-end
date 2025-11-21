@@ -29,6 +29,10 @@
     margin-bottom: 0.5em;
 }
 
+.descricao__imagem-estrelas {
+    padding-bottom: 0.5em;
+}
+
 .card__botoes {
     display: flex;
     justify-content: space-between;
