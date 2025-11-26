@@ -52,3 +52,5 @@ CSS Normalize: https://cdnjs.com/libraries/normalize
 Input types HTML: https://www.w3schools.com/html/html_form_input_types.asp
 
 Plug-in para carrossel sem JavaScript: https://swiperjs.com/
+
+CSS Gradient: https://cssgradient.io/
