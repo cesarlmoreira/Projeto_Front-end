@@ -41,11 +41,13 @@ CSS Units: https://www.w3schools.com/cssref/css_units.php
 
 Media Queries: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
 
-CSS Grind Layout: https://www.alura.com.br/artigos/criando-layouts-com-css-grid-layout
+CSS Grid Layout: https://www.alura.com.br/artigos/criando-layouts-com-css-grid-layout
 
-Grind Template Areas: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
+Grid Template Areas: https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-areas
 
 CSS Reset completo: https://meyerweb.com/eric/tools/css/reset/
+
+CSS Normalize: https://cdnjs.com/libraries/normalize
 
 Input types HTML: https://www.w3schools.com/html/html_form_input_types.asp
 
