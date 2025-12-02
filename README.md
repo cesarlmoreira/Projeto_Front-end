@@ -54,3 +54,7 @@ Input types HTML: https://www.w3schools.com/html/html_form_input_types.asp
 Plug-in para carrossel sem JavaScript: https://swiperjs.com/
 
 CSS Gradient: https://cssgradient.io/
+
+Bancos de imagens sem direitos autorais: 
+https://unsplash.com/pt-br
+https://www.pexels.com/pt-br/
