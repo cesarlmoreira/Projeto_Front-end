@@ -39,7 +39,23 @@
                     <input type="file" accept="image/*" name="userImage">
                 </fieldset>
 
-                
+                <fieldset>
+                    <legend>Perfil</legend>
+                    <p>Gênero:</p>
+                    <!-- Neste caso, é necessário informar o valor (value), visto que é um campo de seleção o nós devemos informar o valor da opção que será enviado para a URL. -->
+                    <input type="radio" name="userGender" value="Feminino">
+                    <label for="userGender">Feminino</label>
+
+                    <input type="radio" name="userGender" value="Masculino">
+                    <label for="userGender">Masculino</label>
+
+                    <input type="radio" name="userGender" value="notInformed">
+                    <label for="userGender">Prefiro não informar</label>
+
+
+
+                </fieldset>
+
 
 
                 <button type="submit">Enviar</button>
