@@ -19,42 +19,43 @@
                 <fieldset>
                     <legend>Dados pessoais</legend>
 
-                    <label for="userName">Nome:</label>
-                    <input type="text" name="userName" required>
+                    <label for="name">Nome:</label>
+                    <!-- No campo ID, utilizar um nome diferente do name no input. -->
+                    <input type="text" id="name" name="userName" required>
                     <br>
-                    <label for="userAge">Idade:</label>
-                    <input type="number" name="userAge" min="12" max="100" required>
+                    <label for="age">Idade:</label>
+                    <input type="number" id="age" name="userAge" min="12" max="100" required>
                     <br>
                     <label for="birthDate">Data de nascimento:</label>
-                    <input type="date" name="birthDate">
+                    <input type="date" id="birthDate" name="userBirthDate">
                     <br>
-                    <label for="userEmail">E-mail:</label>
-                    <input type="email" name="userEmail" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="userEmail" required>
                     <br>
-                    <label for="userPhoneNumber">Telefone:</label>
+                    <label for="phone">Telefone:</label>
                     <!-- No pattern, é definido entre [] o números que serão utilizados no caso de 0 à 9 e entre {}, o total de números, no caso 11. -->
-                    <input type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + 9 dígitos" required>
-                    <br>
-                    <label for="userImage">Upload de foto:</label>
-                    <input type="file" accept="image/*" name="userImage">
+                    <input type="tel" id="phone" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + 9 dígitos" required>
+
+                    <label for="image">Upload de foto:</label>
+                    <input type="file" id="image" accept="image/*" name="userImage">
                 </fieldset>
 
                 <fieldset>
                     <legend>Perfil</legend>
                     <p>Gênero:</p>
                     <!-- Neste caso, é necessário informar o valor (value), visto que é um campo de seleção o nós devemos informar o valor da opção que será enviado para a URL. -->
-                    <input type="radio" name="userGender" value="Feminino">
-                    <label for="userGender">Feminino</label>
+                    <input type="radio" id="female" name="userGender" value="Feminino">
+                    <label for="female">Feminino</label>
 
-                    <input type="radio" name="userGender" value="Masculino">
-                    <label for="userGender">Masculino</label>
+                    <input type="radio" id="male" name="userGender" value="Masculino">
+                    <label for="male">Masculino</label>
 
-                    <input type="radio" name="userGender" value="notInformed">
-                    <label for="userGender">Prefiro não informar</label>
+                    <input type="radio" id="notInformed" name="userGender" value="notInformed">
+                    <label for="notInformed">Prefiro não informar</label>
                     <br>
 
                     <label for="maritalStatus">Estado civil:</label>
-                    <select name="maritalStatus">
+                    <select id="maritalStatus" name="userMaritalStatus">
                         <option value="notInformed">Selecione
                         </option>
                         <option value="casado">Casado
@@ -68,8 +69,8 @@
                     </select>
                     <br>
 
-                    <label for="userState">Estado:</label>
-                    <select name="userState" required>
+                    <label for="state">Estado:</label>
+                    <select id="state" name="userState" required>
                         <option value="notInformed">Selecione</option>
                         <option value="acre">Acre</option>
                         <option value="alagoas">Alagoas</option>
@@ -100,11 +101,46 @@
                         <option value="tocantins">Tocantins</option>
                     </select>
 
-                    <label for="userCity">Cidade:</label>
-                    <input type="text" name="userCity">
+                    <label for="city">Cidade:</label>
+                    <input type="text" id="city" name="userCity">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hábitos</legend>
+                    <p>Redes Sociais:</p>
+                    <!-- Para fazer uma categoria que possibilite marcar multiplas opções é necessário utilizar o type="checkbox" -->
+                    <input type="checkbox" id="instagram" name="social" value="instagram">
+                    <label for="instagram">Instagram</label>
+                    <br>
+                    <input type="checkbox" id="facebook" name="social" value="facebook">
+                    <label for="facebook">Facebook</label>
+                    <br>
+                    <input type="checkbox" id="linkedin" name="social" value="linkedin">
+                    <label for="linkedin">LinkedIn</label>
+                    <br>
+                    <input type="checkbox" id="x" name="social" value="x">
+                    <label for="x">X</label>
+                    <br>
+
+                    <label for="musicStyle">Estilo Musical:</label>
+                    <!-- Adicionado a tag list dentro do input. -->
+                    <input type="text" id="musicStyle" name="userMusicStyle" list="styleTypes">
+                    <!-- Para a utilização de autocomplete, é necessário utilizar a tag datalist e após é adicionado ID de list do input. -->
+                    <datalist id="styleTypes">
+                        <option value="Rock">
+                        <option value="Pop">
+                        <option value="Samba">
+                        <option value="Sertanejo">
+                    </datalist>
+
+                    <br>
+                    <label for="favoriteColor">Cor Favorita:</label>
+                    <input type="color" id="favoriteColor" name="userFaviriteColor">
+
                 </fieldset>
 
                 <button type="submit">Enviar</button>
+
 
             </form>
         </section>
