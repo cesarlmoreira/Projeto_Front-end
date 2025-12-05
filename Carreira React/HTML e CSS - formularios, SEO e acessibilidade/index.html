@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
     <title>Pesquisa - Culturama</title>
-    </head>
+</head>
+
 <body>
-    <header>
-        <img src="./assets/logo-culturama.png" alt="Logo da culturama.">
-        <h1>Pesquisa Online</h1>
-    </header>
     <main>
+        <header>
+            <img src="./assets/logo-culturama.png" alt="Logo da culturama.">
+            <h1>Pesquisa de opinião</h1>
+        </header>
         <section>
 
             <!-- Precisa definir o método, no caso get, que transfere a informação para a URL -->
@@ -40,8 +42,10 @@
                     <br>
                     <label for="phone">Telefone:</label>
                     <!-- No pattern, é definido entre [] o números que serão utilizados no caso de 0 à 9 e entre {}, o total de números, no caso 11. -->
-                    <input type="tel" id="phone" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + 9 dígitos" required>
+                    <input type="tel" id="phone" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + 9 dígitos"
+                        required>
 
+                    <br>
                     <label for="image">Upload de foto:</label>
                     <input type="file" id="image" accept="image/*" name="userImage">
                 </fieldset>
@@ -113,19 +117,19 @@
 
                 <fieldset>
                     <legend>Hábitos</legend>
-                        <p>Redes Sociais:</p>
-                        <!-- Para fazer uma categoria que possibilite marcar multiplas opções é necessário utilizar o type="checkbox" -->
-                        <input type="checkbox" id="instagram" name="social" value="instagram">
-                        <label for="instagram">Instagram</label>
-                        <br>
-                        <input type="checkbox" id="facebook" name="social" value="facebook">
-                        <label for="facebook">Facebook</label>
-                        <br>
-                        <input type="checkbox" id="linkedin" name="social" value="linkedin">
-                        <label for="linkedin">LinkedIn</label>
-                        <br>
-                        <input type="checkbox" id="x" name="social" value="x">
-                        <label for="x">X</label>
+                    <p>Redes Sociais:</p>
+                    <!-- Para fazer uma categoria que possibilite marcar multiplas opções é necessário utilizar o type="checkbox" -->
+                    <input type="checkbox" id="instagram" name="social" value="instagram">
+                    <label for="instagram">Instagram</label>
+                    <br>
+                    <input type="checkbox" id="facebook" name="social" value="facebook">
+                    <label for="facebook">Facebook</label>
+                    <br>
+                    <input type="checkbox" id="linkedin" name="social" value="linkedin">
+                    <label for="linkedin">LinkedIn</label>
+                    <br>
+                    <input type="checkbox" id="x" name="social" value="x">
+                    <label for="x">X</label>
                     <br>
 
                     <label for="musicStyle">Estilo Musical:</label>
@@ -172,7 +176,7 @@
                     <br>
                     <input type="radio" id="satisfaction" name="userSatisfaction" value="ruim">
                     <label for="ruim">Ruim</label>
-                    
+
                     <br>
                     <label for="comentary">Escreva sua opinião:</label>
                     <!-- A tag textarea é utilizada para um campo maior, que possibilita a inserção de texto e o ajuste do tamanho da caixa. -->
@@ -182,9 +186,10 @@
 
                 <button type="submit">Enviar</button>
                 <button type="reset">Limpar</button>
- 
+
             </form>
         </section>
     </main>
 </body>
+
 </html>
