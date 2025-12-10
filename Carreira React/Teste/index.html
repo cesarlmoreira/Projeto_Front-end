@@ -93,6 +93,7 @@
 
             <fieldset>
                 <legend>Hábitos</legend>
+
                 <p>Redes sociais:</p>
                 <input type="checkbox" name="social" id="instagram" value="instagram">
                 <label for="instagram">Instagram</label>
@@ -106,6 +107,16 @@
                 <input type="checkbox" name="social" id="x" value="x">
                 <label for="x">X</label>
                 <br>
+
+                <label for="musicStyle">Estilo musical:</label>
+                <input list="styleTypes" type="text" id="musicStyle" name="userMusicStyle">
+                <datalist id="styleTypes">
+                    <option value="rock">
+                    <option value="pop">
+                    <option value="samba">
+                    <option value="Rock">
+                </datalist>
+
             </fieldset>
 
             <button type="submit">Enviar</button>
