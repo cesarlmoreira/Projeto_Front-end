@@ -45,10 +45,11 @@
                     <!-- No pattern, é definido entre [] o números que serão utilizados no caso de 0 à 9 e entre {}, o total de números, no caso 11. -->
                     <input type="tel" id="phone" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + 9 dígitos" aria-describedby="phoneHelp">
                     <!-- Adicionado a tag small para aprimorar a acessibilidade com o atributo aria, conectado com o input através da ID. -->
-                    <small id="phoneHelp">Preencha com 11 dígitos no formato DDD + 9 dígitos sem espaços ou hífen</small>
+                    <small id="phoneHelp">Preencha com 11 dígitos no formato DDD + 9 dígitos sem espaços ou hífen.</small>
                     <br>
                     <label for="image">Upload de foto:</label>
-                    <input type="file" id="image" accept="image/*" name="userImage">
+                    <input type="file" id="image" accept="image/*" name="userImage" aria-describedby="imagemHelp">
+                    <small id="imageHelp">Envie uma foto no formato "PNG" ou "JPEG".</small>
                 </fieldset>
 
                 <fieldset>
