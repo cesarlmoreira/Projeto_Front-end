@@ -58,3 +58,5 @@ CSS Gradient: https://cssgradient.io/
 Bancos de imagens sem direitos autorais: 
 https://unsplash.com/pt-br
 https://www.pexels.com/pt-br/
+
+Ferramenta de análise de SEO: https://search.google.com/search-console/about
