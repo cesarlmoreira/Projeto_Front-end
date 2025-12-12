@@ -3,7 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 38px 48px;
 }
 
@@ -14,9 +14,14 @@ header {
 }
 
 .navigation-menu {
-    margin-top: 24px;
+
 }
 
 nav {
     display: none;
 }
+
+input[type=checkbox]:checked ~ nav {
+    display: block;
+}
+
