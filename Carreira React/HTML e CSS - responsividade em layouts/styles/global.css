@@ -36,8 +36,3 @@ button {
     --text-weight: 400;
     --menu-text-weight: 500;
 }
-
-header {
-    background-color: var(--background-terciary-color);
-}
-
