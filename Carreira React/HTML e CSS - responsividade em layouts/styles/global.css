@@ -35,6 +35,9 @@ button {
   --titles-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
+
+  --color: #e40808;
+
 }
 
 body {
@@ -42,14 +45,11 @@ body {
   color: var(--text-primary-color);
 }
 
-.offers {
-  text-align: center;
-}
-
 .section-title h2 {
-  font-size: 28px;
+  font-weight: 28px;
   font-weight: var(--titles-weight);
   margin: 0;
+  text-align: center;
 }
 
 .section-title hr {
@@ -62,6 +62,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .section-title h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
