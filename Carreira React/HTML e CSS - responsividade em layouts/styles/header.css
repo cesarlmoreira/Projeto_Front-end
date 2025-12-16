@@ -80,6 +80,10 @@ nav {
   .logo-mobile {
     display: none;
   }
+
+  .navigation-menu .list-links a:hover {
+    color: var(--primary-color);
+  }
 }
 
 @media screen and (min-width: 1920px) {
