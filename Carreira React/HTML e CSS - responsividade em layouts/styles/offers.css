@@ -1,17 +1,26 @@
+.offers-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .card {
   color: var(--text-secundary-color);
-  background-color: black;
   width: 312px;
   height: 288px;
   box-sizing: border-box;
   border-radius: 16px;
   text-align: center;
   padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card header {
   display: block;
-  background-color: transparent;
+  background: transparent;
   position: static;
   padding: 0;
   margin-bottom: 24px;
@@ -30,15 +39,55 @@
 
 .card header span {
   font-size: 32px;
-  margin-top: 24px;
+  margin: 24px 0 0;
+}
+
+.card-japao {
+  background: url("../assets/img/bg-card-japao.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-san-andreas {
+  background: url("../assets/img/bg-card-san-andreas.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-paraiba {
+  background: url("../assets/img/bg-card-paraiba.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-manaus {
+  background: url("../assets/img/bg-card-manaus.png") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
-
+  /* .offers-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  } */
 }
 
 @media screen and (min-width: 1024px) {
-    .button:hover {
-        background-color: var(--primary-color);
-    }
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card header h3 {
+    font-size: 48px;
+  }
+
+  .card header span {
+    font-size: 40px;
+  }
+
+  .button:hover {
+    background-color: var(--primary-color);
+  }
 }
