@@ -72,9 +72,7 @@
   .destinations {
     width: 900px;
   }
-}
 
-@media screen and (min-width: 1920px) {
   .destination-items {
     display: flex;
     gap: 24px;
