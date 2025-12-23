@@ -44,9 +44,13 @@
   margin: 24px 0 40px 0;
 }
 
+.item footer a {
+  width: 312px;
+}
+
 @media screen and (min-width: 768px) {
-  .img-item {
-    height: 452px;
+  .destinations {
+    width: 648px;
   }
 
   .item .tokyo {
