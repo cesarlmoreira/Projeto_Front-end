@@ -110,3 +110,15 @@
     background-position: center;
   }
 }
+
+@media screen and (min-width: 1440px) {
+    .image-content .image {
+    width: 396px;
+    height: 322px;
+  }
+
+  .image-content .people {
+    width: 816px;
+    height: 229px;
+  }
+}
