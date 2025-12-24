@@ -1,5 +1,5 @@
 .categories {
-  margin: 88px 0;
+  margin: 88px auto;
 }
 
 .categories .section-title {
@@ -27,6 +27,10 @@
   margin-top: 24px;
 }
 
+.categories-cards .img-smaller img {
+  margin-top: 48px;
+}
+
 .categories-cards .card h3 {
   color: var(--text-primary-color);
   font-size: 28px;
@@ -46,14 +50,20 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .categories-cards {
-    width: 950px;
-    margin: 0 auto;
+  .categories {
+    width: 900px;
+  }
+  .categories-cards .card {
+    width: 420px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .categories-cards {
-    width: 1320px;
+  .categories {
+    width: 1200px;
+  }
+
+  .categories-cards .card {
+    width: 281px;
   }
 }

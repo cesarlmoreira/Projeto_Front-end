@@ -87,10 +87,6 @@
   .card header span {
     font-size: 40px;
   }
-
-  .button:hover {
-    background-color: var(--primary-color);
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -100,8 +96,8 @@
 }
 
 @media screen and (min-width: 1920px) {
-    .offers-cards {
-        width: 1250px;
-        margin: 0 auto;
-    }
+  .offers-cards {
+    width: 1250px;
+    margin: 0 auto;
+  }
 }
