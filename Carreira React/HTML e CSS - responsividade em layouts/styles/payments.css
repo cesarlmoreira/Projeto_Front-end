@@ -1,0 +1,125 @@
+.image-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "bag passport"
+    "people people";
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.bag {
+  grid-area: bag;
+}
+
+.passport {
+  grid-area: passport;
+}
+
+.people {
+  grid-area: people;
+}
+
+.image-content .image {
+  width: 144px;
+  height: 254px;
+}
+
+.image-content .bag {
+  background: url("../assets/img/bag-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .passport {
+  background: url("../assets/img/passport-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .people {
+  background: url("../assets/img/people-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 182px;
+  width: 312px;
+}
+
+@media screen and (min-width: 768px) {
+  .image-content .bag,
+  .image-content .passport {
+    width: 312px;
+    height: 254px;
+    background-position: center;
+  }
+
+  .image-content .people {
+    width: 648px;
+    height: 182px;
+    background: url("../assets/img/people-tablet-desktop.jpg") no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments {
+    display: grid;
+    grid-template-columns: 384px 1fr 1fr;
+    grid-template-areas:
+      "main-title main-title main-title"
+      "text bag passport"
+      ". people people";
+  }
+
+  .payments .section-title {
+    grid-area: main-title;
+  }
+
+  .payments .text-content {
+    grid-area: text;
+    padding-right: 24px;
+    align-self: start;
+  }
+
+  .payments .image-content .bag {
+    grid-area: bag;
+  }
+
+  .payments .image-content .passport {
+    grid-area: passport;
+  }
+
+  .payments .image-content .people {
+    grid-area: people;
+  }
+
+  .image-content .image {
+    width: 234px;
+  }
+
+  .image-content .people {
+    width: 492px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .image-content .image {
+    width: 383.5px;
+    height: 254px;
+  }
+
+  .image-content .people {
+    width: 790px;
+    height: 182px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+    .image-content .image {
+    width: 396px;
+    height: 322px;
+  }
+
+  .image-content .people {
+    width: 816px;
+    height: 229px;
+  }
+}

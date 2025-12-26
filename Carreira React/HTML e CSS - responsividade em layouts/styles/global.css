@@ -43,8 +43,10 @@ body {
 }
 
 section {
+  margin-top: 88px;
   width: 312px;
   margin: 0 auto 88px;
+  align-items: center;
 }
 
 .hero {
@@ -57,6 +59,17 @@ section {
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 .section-title hr {
