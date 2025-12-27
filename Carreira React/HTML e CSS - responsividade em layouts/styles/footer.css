@@ -21,7 +21,7 @@
   color: var(--text-secundary-color);
 }
 
-.footer div h4 {
+.footer div h3 {
   font-size: 16px;
   line-height: 28px;
   font-weight: var(--text-weight);
