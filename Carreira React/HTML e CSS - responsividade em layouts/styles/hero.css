@@ -34,7 +34,7 @@
   }
 
   .bottom-hero .hero-img {
-    background: url("../assets/img/hero-bottom-tablet.jpg")no-repeat;
+    background: url("../assets/img/hero-bottom-tablet.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 620px;
@@ -54,21 +54,19 @@
   }
 
   .bottom-hero .hero-img {
-    background: url("../assets/img/hero-bottom-desktop.jpg")no-repeat;
+    background: url("../assets/img/hero-bottom-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 620px;
   }
 
-
   .hero h2 {
     padding: 104px 120px;
-
   }
 }
 
 @media screen and (min-width: 1920px) {
-    .hero h2 {
+  .hero h2 {
     padding: 104px 225px;
   }
 }
