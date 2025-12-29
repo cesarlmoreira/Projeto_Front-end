@@ -23,7 +23,7 @@
   height: 360px;
 }
 
-.item .tokyo {
+.tokyo {
   background: url("../assets/img/tokyo-mobile.jpg") no-repeat;
   background-size: cover;
 }
@@ -45,6 +45,36 @@
 
 .item footer a {
   width: 312px;
+}
+
+/* Página do Blog */
+
+.content-tokyo .section-title {
+  margin: 88px 0 56px 0;
+}
+
+.content-tokyo article div h3 {
+  margin: 32px 0 24px 0;
+}
+
+.content-tokyo article .accommodation-text {
+  margin-bottom: 24px;
+}
+
+.content-tokyo .vacation-tokyo {
+  background: url("../assets/img/blogspot/vacation-tokyo-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.content-tokyo .legend-img {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: var(--text-weight);
+  line-height: 28px;
+}
+
+.content-tokyo .alternative-text__tablet {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -76,6 +106,41 @@
   .item footer {
     display: inline-block;
   }
+
+  /* Página do Blog */
+.content-tokyo__tablet {
+  display: flex;
+  gap: 24px;
+}
+
+.content-tokyo .first-title {
+  margin: 0 0 24px 0;
+}
+
+.content-tokyo__tablet div.img-item {
+  width: 312px;
+  height: 360px;
+}
+
+.content-tokyo .tokyo {
+  display: none;
+}
+
+.content-tokyo .tokyo-img__tablet {
+  background: url("../assets/img/blogspot/vacation-tokyo-bridge-tablet.jpg") no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 648px;
+}
+
+.content-tokyo .alternative-text__mobile {
+  display: none;
+}
+
+.content-tokyo .alternative-text__tablet {
+  display: block;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
