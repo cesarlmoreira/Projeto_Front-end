@@ -73,7 +73,8 @@ section {
   line-height: 32px;
 }
 
-.section-title hr {
+.section-title hr,
+.hero .hero-img hr {
   width: 180px;
   height: 4px;
   background-color: var(--secundary-color);
@@ -94,12 +95,47 @@ section {
   line-height: 64px;
 }
 
+/* Páginas do Blog, Destinos e Contato */
+.hero .hero-img .hero-content {
+  width: 312px;
+  margin: 0 auto;
+  padding-top: 81px;
+}
+
+.hero .hero-img .hero-content h1 {
+  color: var(--text-secundary-color);
+  font-size: 48px;
+  font-weight: var(--title-weight);
+}
+
+.hero .hero-img .hero-content hr {
+  margin: 16px 0 32px 0;
+}
+
+.hero .hero-img .hero-content p {
+  color: var(--text-secundary-color);
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
   }
   .section-title h2 {
     font-size: 32px;
+  }
+
+  /* Páginas do Blog, Destinos e Contato */
+  .hero .hero-img .hero-content {
+    width: 648px;
+    padding-top: 159px;
+  }
+
+  .hero .hero-img .hero-content p {
+    font-size: 32px;
+    line-height: 1.5;
   }
 }
 
@@ -110,6 +146,17 @@ section {
 
   .button:hover {
     background-color: var(--primary-color);
+  }
+
+  /* Páginas do Blog, Destinos e Contato */
+  .hero .hero-img .hero-content {
+    width: 579px;
+    margin-left: 9%;
+  }
+
+  .hero .hero-img .hero-content p {
+    font-size: 32px;
+    line-height: 1.5;
   }
 }
 
