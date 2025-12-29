@@ -77,6 +77,18 @@
   display: none;
 }
 
+.item .hiroshima {
+  background: url("../assets/img/blogspot/hiroshima-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.item .kyoto {
+  background: url("../assets/img/blogspot/kyoto-mobile.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
