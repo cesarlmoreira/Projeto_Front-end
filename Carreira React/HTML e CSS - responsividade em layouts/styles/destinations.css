@@ -86,7 +86,7 @@
 .item .kyoto {
   background: url("../assets/img/blogspot/kyoto-mobile.jpg");
   background-size: cover;
-  background-position: center;
+  background-position-x: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -162,11 +162,13 @@
   .item .osaka-tablet {
     background: url("../assets/img/blogspot/osaka-tablet.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .item .hiroshima {
     background: url("../assets/img/blogspot/hiroshima-tablet.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .item .kyoto {
     background: url("../assets/img/blogspot/kyoto-tablet.jpg") no-repeat;
@@ -212,6 +214,15 @@
     height: 300px;
     width: 900px;
   }
+
+  .destinations-blog .destination-items {
+    display: block;
+  }
+
+  .destinations-blog .destination-items .img-item {
+    height: 300px;
+    width: 900px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -242,5 +253,20 @@
     background-position: center;
     height: 300px;
     width: 1200px;
+  }
+
+  .destinations-blog .destination-items .img-item {
+    height: 300px;
+    width: 384px;
+  }
+
+  .destinations-blog .destination-items {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .item .kyoto {
+    background-position-x: right;
   }
 }
