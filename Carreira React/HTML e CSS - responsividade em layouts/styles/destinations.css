@@ -108,39 +108,39 @@
   }
 
   /* Página do Blog */
-.content-tokyo__tablet {
-  display: flex;
-  gap: 24px;
-}
+  .content-tokyo__tablet {
+    display: flex;
+    gap: 24px;
+  }
 
-.content-tokyo .first-title {
-  margin: 0 0 24px 0;
-}
+  .content-tokyo .first-title {
+    margin: 0 0 24px 0;
+  }
 
-.content-tokyo__tablet div.img-item {
-  width: 312px;
-  height: 360px;
-}
+  .content-tokyo__tablet div.img-item {
+    width: 312px;
+    height: 360px;
+  }
 
-.content-tokyo .tokyo {
-  display: none;
-}
+  .content-tokyo .tokyo {
+    display: none;
+  }
 
-.content-tokyo .tokyo-img__tablet {
-  background: url("../assets/img/blogspot/vacation-tokyo-bridge-tablet.jpg") no-repeat;
-  background-size: cover;
-  height: 300px;
-  width: 648px;
-}
+  .content-tokyo .tokyo-img {
+    background: url("../assets/img/blogspot/vacation-tokyo-bridge-tablet.jpg")
+      no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 648px;
+  }
 
-.content-tokyo .alternative-text__mobile {
-  display: none;
-}
+  .content-tokyo .alternative-text__mobile {
+    display: none;
+  }
 
-.content-tokyo .alternative-text__tablet {
-  display: block;
-}
-
+  .content-tokyo .alternative-text__tablet {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -158,6 +158,29 @@
   .item .button-osaka {
     margin-top: 48px;
   }
+
+  /* Página do Blog */
+
+  .content-tokyo__tablet div.img-item {
+    height: 360px;
+    width: 540px;
+  }
+
+  .content-tokyo .vacation-tokyo {
+    background: url("../assets/img/blogspot/vacation-tokyo-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .content-tokyo .tokyo-img {
+    background: url("../assets/img/blogspot/vacation-tokyo-bridge-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 900px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -172,5 +195,21 @@
 
   .item .button-osaka {
     margin-top: 24px;
+  }
+
+  /* Página do Blog */
+
+  .content-tokyo__tablet div.img-item {
+    height: 360px;
+    width: 588px;
+  }
+
+  .content-tokyo .tokyo-img {
+    background: url("../assets/img/blogspot/vacation-tokyo-bridge-desktop.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 1200px;
   }
 }
