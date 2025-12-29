@@ -7,14 +7,20 @@ header {
   position: relative;
 }
 
-.logo {
+.logo-mobile {
   display: inline-block;
-  width: 68px;
-  height: 64px;
+  width: 51px;
+  height: 48px;
 }
 
 .logo-desktop {
   display: none;
+}
+
+.navigation-menu img {
+  display: inline-block;
+  width: 24px;
+  height: 16px;
 }
 
 input[type="checkbox"]:checked ~ nav {
@@ -65,6 +71,11 @@ nav {
 
   .navigation-menu nav {
     display: block;
+  }
+
+  .logo-mobile {
+    width: 68px;
+    height: 64px;
   }
 }
 
