@@ -153,6 +153,25 @@
   .content-tokyo .alternative-text__tablet {
     display: block;
   }
+
+  .destinations-blog .destination-items .img-item {
+    width: 648px;
+    height: 300px;
+  }
+
+  .item .osaka-tablet {
+    background: url("../assets/img/blogspot/osaka-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .item .hiroshima {
+    background: url("../assets/img/blogspot/hiroshima-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+  .item .kyoto {
+    background: url("../assets/img/blogspot/kyoto-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
