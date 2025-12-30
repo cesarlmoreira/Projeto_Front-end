@@ -100,6 +100,12 @@
     background-size: cover;
     height: 620px;
   }
+
+  .bottom-hero__contact .hero-img {
+    background: url("../assets/img/contact/bottom-hero-tablet.jpg");
+    background-size: cover;
+    height: 620px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -131,6 +137,13 @@
   /* PÁGINA DE CONTATO */
   .hero .hero-contact {
     background: url("../assets/img/contact/hero-contact-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
+  }
+  
+  .bottom-hero__contact .hero-img {
+    background: url("../assets/img/contact/bottom-hero-desktop.jpg");
     background-size: cover;
     background-position: center;
     height: 620px;
