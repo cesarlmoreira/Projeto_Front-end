@@ -5,7 +5,8 @@
 }
 
 .destinations .section-title,
-.destinations-packages .section-title {
+.destinations-packages .section-title,
+.form .section-title {
   width: 280px;
   margin: 0 auto;
 }
@@ -51,7 +52,8 @@
 /* Página do Blog */
 
 .content-tokyo .section-title,
-.destinations-packages .section-title {
+.destinations-packages .section-title,
+.form .section-title {
   margin: 88px auto 56px auto;
 }
 
