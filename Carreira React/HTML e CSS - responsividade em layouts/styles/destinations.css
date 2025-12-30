@@ -4,7 +4,8 @@
   align-items: center;
 }
 
-.destinations .section-title {
+.destinations .section-title,
+.destinations-packages .section-title {
   width: 280px;
   margin: 0 auto;
 }
@@ -49,8 +50,9 @@
 
 /* Página do Blog */
 
-.content-tokyo .section-title {
-  margin: 88px 0 56px 0;
+.content-tokyo .section-title,
+.destinations-packages .section-title {
+  margin: 88px auto 56px auto;
 }
 
 .content-tokyo article div h3 {
