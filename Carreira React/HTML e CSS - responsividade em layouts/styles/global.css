@@ -75,7 +75,8 @@ section {
 }
 
 .section-title hr,
-.hero .hero-img hr {
+.hero .hero-img hr,
+.form hr {
   width: 180px;
   height: 4px;
   background-color: var(--secundary-color);
