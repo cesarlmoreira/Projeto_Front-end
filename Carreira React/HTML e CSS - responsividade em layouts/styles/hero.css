@@ -1,5 +1,6 @@
 .hero .hero-img,
-.bottom-hero .hero-img {
+.bottom-hero .hero-img,
+.bottom-hero__packages .hero-img {
   height: 400px;
   width: 100%;
 }
@@ -32,6 +33,14 @@
   height: 460px;
 }
 
+/* PÁGINA DE DESTINOS */
+.bottom-hero__packages .hero-img {
+  background: url("../assets/img/packages/bottom-hero-mobile-packages.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     background: url("../assets/img/hero-tablet.jpg") no-repeat;
@@ -57,7 +66,16 @@
     background: url("../assets/img/blogspot/hero-blog-tablet-desktop.jpg");
     background-size: cover;
     background-position: center;
-    height: 620px;
+    height: 400px;
+  }
+
+  /* PÁGINA DE DESTINOS */
+  .bottom-hero__packages .hero-img {
+    background: url("../assets/img/packages/bottom-hero-tablet-desktop-packages.jpg")
+      no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
   }
 }
 
@@ -72,7 +90,7 @@
     background: url("../assets/img/hero-bottom-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: center;
-    height: 620px;
+    height: 400px;
   }
 
   .hero h2 {
@@ -84,7 +102,14 @@
     background: url("../assets/img/blogspot/hero-blog-tablet-desktop.jpg");
     background-size: cover;
     background-position: center;
-    height: 620px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-hero .hero-img,
+  .bottom-hero__packages .hero-img {
+    height: 600px;
   }
 }
 
