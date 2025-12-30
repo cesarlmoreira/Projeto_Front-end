@@ -41,6 +41,13 @@
   background-position: center;
 }
 
+/* PÁGINA DE CONTATO */
+.hero .hero-contact {
+  background: url("../assets/img/contact/hero-contact-mobile.jpg");
+  background-size: cover;
+  height: 460px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     background: url("../assets/img/hero-tablet.jpg") no-repeat;
@@ -77,6 +84,13 @@
     background-position: center;
     height: 400px;
   }
+
+  /* PÁGINA DE CONTATO */
+  .hero .hero-contact {
+    background: url("../assets/img/contact/hero-contact-tablet.jpg");
+    background-size: cover;
+    height: 620px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -103,6 +117,14 @@
     background-size: cover;
     background-position: center;
     height: 400px;
+  }
+
+  /* PÁGINA DE CONTATO */
+  .hero .hero-contact {
+    background: url("../assets/img/contact/hero-contact-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 620px;
   }
 }
 
