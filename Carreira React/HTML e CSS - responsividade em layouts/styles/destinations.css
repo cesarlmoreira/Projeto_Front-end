@@ -89,6 +89,14 @@
   background-position-x: right;
 }
 
+  /* PÁGINA DE PACKAGES */
+.hero .hero-packages {
+  background: url("../assets/img/packages/hero-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
