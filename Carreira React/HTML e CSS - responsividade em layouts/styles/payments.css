@@ -8,15 +8,18 @@
   margin-top: 24px;
 }
 
-.bag {
+.bag,
+.pallace {
   grid-area: bag;
 }
 
-.passport {
+.passport,
+.city {
   grid-area: passport;
 }
 
-.people {
+.people,
+.japanese {
   grid-area: people;
 }
 
@@ -38,6 +41,31 @@
 .image-content .people {
   background: url("../assets/img/people-mobile.jpg") no-repeat;
   background-size: cover;
+  height: 182px;
+  width: 312px;
+}
+
+/* PÁGINA DO PACKAGES */
+
+.content-title__payment {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.image-content .pallace {
+  background: url("../assets/img/packages/pallace-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .city {
+  background: url("../assets/img/packages/city-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.image-content .japanese {
+  background: url("../assets/img/packages/japanese-tablet.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 182px;
   width: 312px;
 }
@@ -113,7 +141,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .image-content .image {
+  .image-content .image {
     width: 396px;
     height: 322px;
   }
