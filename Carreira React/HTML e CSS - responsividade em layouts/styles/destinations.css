@@ -89,6 +89,13 @@
   background-position-x: right;
 }
 
+/* PÁGINA DE PACKAGES */
+.hero .hero-packages {
+  background: url("../assets/img/packages/hero-mobile.jpg") no-repeat;
+  background-size: cover;
+  height: 460px;
+}
+
 @media screen and (min-width: 768px) {
   .destinations {
     width: 648px;
@@ -174,6 +181,13 @@
     background: url("../assets/img/blogspot/kyoto-tablet.jpg") no-repeat;
     background-size: cover;
   }
+
+  /* PÁGINA DE PACKAGES */
+  .hero .hero-packages {
+    background: url("../assets/img/packages/hero-tablet.jpg") no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -222,6 +236,14 @@
   .destinations-blog .destination-items .img-item {
     height: 300px;
     width: 900px;
+  }
+
+  /* PÁGINA DE PACKAGES */
+  .hero .hero-packages {
+    background: url("../assets/img/packages/hero-desktop.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 620px;
   }
 }
 
