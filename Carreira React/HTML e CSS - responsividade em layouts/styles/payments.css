@@ -128,7 +128,7 @@
   .payments-packages .text-content {
     grid-area: text;
     padding-right: 24px;
-    align-self: start;
+    align-self: center;
   }
 
   .payments .image-content .bag,
@@ -165,7 +165,7 @@
   .image-content .people,
   .image-content .japanese {
     width: 790px;
-    height: 182px;
+    height: 229px;
     background-position: center;
   }
 }
@@ -179,6 +179,5 @@
   .image-content .people,
   .image-content .japanese {
     width: 816px;
-    height: 229px;
   }
 }
