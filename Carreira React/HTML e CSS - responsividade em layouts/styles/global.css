@@ -125,6 +125,11 @@ section {
   font-weight: var(--text-weight);
 }
 
+.form-sent {
+  text-align: center;
+  margin-top: 80px;
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
